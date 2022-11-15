@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url('./images/meetings-bg.jpg');
+
+}
+.web-site{
+    margin: 15px 65px;
+}
+.navbar-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 45px;
+}
+.contact-box{
+    font-size: 12px;
+    color: #fff;
+}
+.logo-box{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+}
+ul,li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px 0;
+}
+ul .list-button{
+    width: 200px;
+    padding: 20px 15px;
+    color: #fff;
+}
+.b1{
+    border: 0;
+    background-color: rgb(81, 81, 226);
+}
+.b2{
+    border: 0;
+    background-color:limegreen;
+}
+.b3{
+    border: 0;
+    background-color:rgb(255, 251, 0);
+}
+.b4{
+    border: 0;
+    background-color:blue;
+}
+.b5{
+    border: 0;
+    background-color:red;
+}
+.b6{
+    border: 0;
+    background-color: purple;
+}
+
+.block{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 98.5px;
+    color: #fff;
+    background-color: red;
+    margin: 5px 0;
+}
+
+/* block box2 */
+.block-box2{
+    width: 1000px;
+    height: 700px;
+    padding: 10px;
+}
+.box-img-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 970px;
+    height: 300px;
+    background-image: url('./images/Winter-background.jpg');
+    background-size: cover;
+}
+.box-word{
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    color: blanchedalmond;
+    text-align: center;
+}
+.box-button{
+    padding: 12px 12px;
+    background-color: lime;
+    color: #fff;
+    border: 0;
+}
+.box-word h1,p,button{
+    margin: 8px 0;
+}
+
+/* block box3 */
+.block-box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+.block-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.box1{
+    background-color: orange;
+}
+.box2{
+    background-color: rgb(81, 81, 226);
+}
+
+/* block4 */
+.word{
+    text-align: center;
+    color: #fff;
+}
+.block-box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.box-boxs{
+    width: 280px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.boxs-logo{
+    width: 60px;
+    height: 60px;
+    margin: 0px 95px;
+}
+.boxs1{
+    background-color: limegreen;
+}
+.boxs2{
+    background-color: purple;
+}
+.boxs3{
+    background-color: brown;
+}
+.log1{
+    background-image: url('./images/file-regular-24.png');
+    background-size: cover;
+}
+.log2{
+    background-image: url('./images/exit-fullscreen-regular-24.png');
+    background-size: cover;
+}
+.log3{
+    background-image: url('./images/cog-solid-24.png');
+    background-size: cover;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    height: 15vh;
+    padding: 15px;
+    background-color: rgb(55, 53, 53);
+}
+.box-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.telegram{
+    background-image: url('./images/telegram-logo-24.png');
+    background-size: cover;
+}
+.instagram{
+    background-image: url('./images/instagram.png');
+    background-size: cover;
+}
+.twitter{
+    background-image: url('./images/twitter-logo-24.png');
+    background-size: cover;
+}
+.facebook{
+    background-image: url('./images/facebook-logo-24.png');
+    background-size: cover;
+}
+.google{
+    background-image: url('./images/google-plus-logo-24.png');
+    background-size: cover;
+}
+.add{
+    background-image: url('./images/add.png');
+    background-size: cover;
+    border-radius: 50%;
+    background-color: brown;
+}
